@@ -127,3 +127,16 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .column {
+        flex-direction: column;
+        width: 100%;
+    }
+    .column>img {
+        display: block;
+        height: auto;
+        width: auto;
+        border-radius: 1rem 1rem 0 0;
+    }
+}
